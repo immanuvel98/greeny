@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+     width: 100%;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(161, 238, 212);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.navbar ul li{
+    
+    display: inline-block;
+    margin: 7px;
+    position: relative;
+    
+}
+
+.greemy{
+    float: left;
+    font-family: 'Lugrasimo', cursive;
+    font-size: 30px ;
+}
+
+.para{
+    padding: 20px;
+}
+.h1{
+    padding: 20px;
+}
+.button{
+    margin: 20px;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.imghead {
+      
+      float: right;
+      display: flex;
+      animation: slide 0.9s ease-in;
+      margin-top: 30px;
+      margin-right: 80px;
+}
+
+@keyframes slide{
+    0%{
+        transform: skewX(0deg) translateX(250px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}                       
+
+.child-one{
+      position: relative;
+      left: 80px;
+}
+
+.child-two{
+      position: relative;
+      top: -270px;
+}
+
+.pro{
+    position:relative;
+    left: 520px;
+    padding: 60px;
+}
+.img1{
+    background-color: rgb(161, 238, 212);
+    margin-top: 60px;
+    height: 559px;
+    width: 100%;
+}
+.plants{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.im2{
+    padding: 0px 0px 0px 180px;
+    margin-top:80px ;
+}
+.im1,.im3{
+    padding: 0px 0px 0px 180px;
+    margin-top: -40px;
+}
+.im1 img,.pl2 img,.pl3 img{
+    transition: transform 0.3s 0;
+}
+.im1 img:hover{
+    transform: scale(-0.7);
+    transition: 2s;
+}
+.im2 img:hover{
+    /* transform: rotate(17deg); */
+    transform: scale(0.7);
+    transition: 2s;
+}
+.im3 img:hover{
+    /* transform: translate(-7px, -13px ); */
+    transform: scale(-0.7);
+    transition: 2s;
+}
+
+.prop{
+    margin-top: 15px;
+    text-align: center;
+    font-size: larger;
+}
+
+.girl{
+    padding: 30px;
+    float: left;
+    margin:0px ;
+    top: -40px;
+    margin-top: -120px;
+}
+
+.girlh1{
+    position:relative;
+    left: 200px;
+    padding: 60px;
+    font-size: 40px;
+    
+}
+.girl1{
+    background-color: rgb(161, 238, 212);
+    padding:40px;
+}
+
+.girl1 img:hover{
+   transform: translate(-30px,43px);
+   transition: 2s;
+}
+
+.girlp{
+    position:relative;
+    left: 100px;
+    padding: 20px;
+}
+
+.placediv{
+    text-align: center;
+    padding: 30px;
+}
+.palceh1{
+    font-size: 49px;
+}
+
+.placep{
+    font-size: 20px;
+}
+
+.placeinput{
+    padding: 10px 400px;
+}
+.placebuton{
+    padding: 10px 40px;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+.imgfours{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imgfour1,.imgfour2,.imgfour3,.imgfour4{
+    padding: 14px;
+}
+
+.imgfour2 img:hover{
+    transform: matrix(0.7, 0.5, 0.5, 0.4, 0.5, 0.7);
+    transition: 1s;
+}
+.imgfour3 img:hover{
+    transform: matrix(0.7, 0.5, 0.5, 0.4, 0.5, 0.7);
+    transition: 1s;
+}
+
+.imgfour4 img:hover{
+    transform: matrix(0.7, 0.5, 0.5, 0.4, 0.5, 0.7);
+    transition: 1s;
+}
+
+.imgfour1 img:hover{
+    transform: matrix(0.7, 0.5, 0.5, 0.4, 0.5, 0.7);
+    transition: 1s;
+}
+
+
+.bott
+    {
+        text-align: center;
+        padding: 10px;
+    }
+.botth1{
+    font-size: 40px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+ 
+}
+
+.box1,.box2,.box3{
+    border: black solid 1px;
+    width: 300px;
+    height: 250px;
+    padding: 25px;
+    text-align: center;
+}
+.boxes p{
+    margin-top: 8px;
+    line-height: 1.5;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.cont8{
+    background-color: #befbfb;
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.head8{
+    font-size: 50px;
+    font-weight: 60px;
+    margin-left: 100px;
+   padding-top: 120px;
+}
+.cpr{
+    color: gray;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 50px;
+
+}
+.lpara{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.limg{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.limg img:hover{
+    transform: matrix(0,1,1,0,0,0);
+    transition: 2s;
+}
+
+.box1 img:hover{
+    transform: matrix(0,1,1,0,0,0);
+    transition: 2s;
+}
+
+.box2 img:hover{
+    transform: matrix(0,1,1,0,0,0);
+    transition: 2s;
+}
+
+.box3 img:hover{
+    transform: matrix(0,1,1,0,0,0);
+    transition: 2s;
+}
